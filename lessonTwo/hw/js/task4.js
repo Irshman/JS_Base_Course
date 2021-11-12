@@ -13,7 +13,7 @@ if (a < b) {
     for (var i = a; i <= b; i++) {
         sum += i;
 
-        if (!(i % 2 == 0)) {
+        if (i % 2 != 0) {
             list += i + " ";
         }
     }
